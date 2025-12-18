@@ -11,7 +11,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		4547903A2EF4346F00D2B44A /* PrivacyAudit */ = {
+		454790512EF4354900D2B44A /* PrivacyAudit */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = PrivacyAudit;
 			sourceTree = "<group>";
@@ -32,7 +32,7 @@
 		4547902F2EF4346F00D2B44A = {
 			isa = PBXGroup;
 			children = (
-				4547903A2EF4346F00D2B44A /* PrivacyAudit */,
+				454790512EF4354900D2B44A /* PrivacyAudit */,
 				454790392EF4346F00D2B44A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,7 +61,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				4547903A2EF4346F00D2B44A /* PrivacyAudit */,
+				454790512EF4354900D2B44A /* PrivacyAudit */,
 			);
 			name = PrivacyAudit;
 			packageProductDependencies = (
@@ -256,6 +256,12 @@
 				DEVELOPMENT_TEAM = 56GJCK8N2M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "This app checks your calendar permission status";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app checks your camera permission status";
+				INFOPLIST_KEY_NSContactsUsageDescription = "This app checks your contacts permission status";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app checks your location permission status";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app checks your microphone permission status";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app checks your photo library permission status";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -288,6 +294,12 @@
 				DEVELOPMENT_TEAM = 56GJCK8N2M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "This app checks your calendar permission status";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app checks your camera permission status";
+				INFOPLIST_KEY_NSContactsUsageDescription = "This app checks your contacts permission status";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app checks your location permission status";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app checks your microphone permission status";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app checks your photo library permission status";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
