@@ -6,8 +6,19 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		454921832F0113B9009EF6E2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 454921822F0113B9009EF6E2 /* README.md */; };
+		454921882F0113CB009EF6E2 /* Simulator Screenshot - iPhone 16e - 2025-12-28 at 10.22.47.png in Resources */ = {isa = PBXBuildFile; fileRef = 454921852F0113CB009EF6E2 /* Simulator Screenshot - iPhone 16e - 2025-12-28 at 10.22.47.png */; };
+		454921892F0113CB009EF6E2 /* Simulator Screenshot - iPhone 16e - 2025-12-28 at 10.22.42.png in Resources */ = {isa = PBXBuildFile; fileRef = 454921842F0113CB009EF6E2 /* Simulator Screenshot - iPhone 16e - 2025-12-28 at 10.22.42.png */; };
+		4549218A2F0113CB009EF6E2 /* Simulator Screenshot - iPhone 16e - 2025-12-28 at 10.22.50.png in Resources */ = {isa = PBXBuildFile; fileRef = 454921862F0113CB009EF6E2 /* Simulator Screenshot - iPhone 16e - 2025-12-28 at 10.22.50.png */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		454790382EF4346F00D2B44A /* PrivacyAudit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrivacyAudit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		454921822F0113B9009EF6E2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		454921842F0113CB009EF6E2 /* Simulator Screenshot - iPhone 16e - 2025-12-28 at 10.22.42.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screenshot - iPhone 16e - 2025-12-28 at 10.22.42.png"; sourceTree = "<group>"; };
+		454921852F0113CB009EF6E2 /* Simulator Screenshot - iPhone 16e - 2025-12-28 at 10.22.47.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screenshot - iPhone 16e - 2025-12-28 at 10.22.47.png"; sourceTree = "<group>"; };
+		454921862F0113CB009EF6E2 /* Simulator Screenshot - iPhone 16e - 2025-12-28 at 10.22.50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screenshot - iPhone 16e - 2025-12-28 at 10.22.50.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +43,8 @@
 		4547902F2EF4346F00D2B44A = {
 			isa = PBXGroup;
 			children = (
+				454921872F0113CB009EF6E2 /* screenshots */,
+				454921822F0113B9009EF6E2 /* README.md */,
 				454790512EF4354900D2B44A /* PrivacyAudit */,
 				454790392EF4346F00D2B44A /* Products */,
 			);
@@ -43,6 +56,16 @@
 				454790382EF4346F00D2B44A /* PrivacyAudit.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		454921872F0113CB009EF6E2 /* screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				454921842F0113CB009EF6E2 /* Simulator Screenshot - iPhone 16e - 2025-12-28 at 10.22.42.png */,
+				454921852F0113CB009EF6E2 /* Simulator Screenshot - iPhone 16e - 2025-12-28 at 10.22.47.png */,
+				454921862F0113CB009EF6E2 /* Simulator Screenshot - iPhone 16e - 2025-12-28 at 10.22.50.png */,
+			);
+			path = screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,6 +132,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				454921882F0113CB009EF6E2 /* Simulator Screenshot - iPhone 16e - 2025-12-28 at 10.22.47.png in Resources */,
+				454921892F0113CB009EF6E2 /* Simulator Screenshot - iPhone 16e - 2025-12-28 at 10.22.42.png in Resources */,
+				4549218A2F0113CB009EF6E2 /* Simulator Screenshot - iPhone 16e - 2025-12-28 at 10.22.50.png in Resources */,
+				454921832F0113B9009EF6E2 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

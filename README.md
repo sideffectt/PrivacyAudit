@@ -11,7 +11,11 @@ A simple iOS app to check and manage your privacy permissions.
 
 ## Screenshots
 
-(coming soon)
+<p align="center">
+  <img src="screenshots/home.png" width="250">
+  <img src="screenshots/detail.png" width="250">
+  <img src="screenshots/settings.png" width="250">
+</p>
 
 ## Tech
 
